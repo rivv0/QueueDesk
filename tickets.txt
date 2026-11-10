@@ -1,0 +1,3 @@
+bug|1|Crash on checkout|Checkout button throws NullPointerException when cart has discount items and user clicks pay now|Alice|CRITICAL|OPEN|2026-11-10T17:39:33.748238|Bob|backend,checkout|HIGH|1. Add discount item to cart 2. Click checkout|1
+feature|2|Dark mode support|Add dark theme to UI to reduce eye strain during nighttime shifts for customer service agents|Alice|MEDIUM|OPEN|2026-11-10T17:39:33.748282|Charlie|ui|13|Reduces eye strain for night shift|0
+access|3|Database production read access|Read-only credentials for SQL troubleshooting during incident triage in production cluster|Dave|HIGH|OPEN|2026-11-10T17:39:33.748312||security|Prod-DB|READ|1

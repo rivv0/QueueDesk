@@ -1,0 +1,17 @@
+*.class
+out/
+bin/
+build/
+target/
+
+.DS_Store
+Thumbs.db
+
+*.log
+*.tmp
+daily-report.txt
+
+.vscode/
+.settings/
+.idea/
+*.iml

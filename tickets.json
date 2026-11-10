@@ -1,0 +1,42 @@
+[ {
+  "id" : 1,
+  "title" : "Crash on checkout",
+  "description" : "Checkout button throws NullPointerException when cart has discount items and user clicks pay now",
+  "requester" : "Alice",
+  "priority" : "CRITICAL",
+  "status" : "OPEN",
+  "createdAt" : "2026-11-10T17:39:33.748238",
+  "severity" : "HIGH",
+  "stepsToReproduce" : "1. Add discount item to cart 2. Click checkout",
+  "escalationLevel" : 1,
+  "assignee" : "Bob",
+  "tags" : [ "backend", "checkout" ],
+  "type" : "bug"
+}, {
+  "id" : 2,
+  "title" : "Dark mode support",
+  "description" : "Add dark theme to UI to reduce eye strain during nighttime shifts for customer service agents",
+  "requester" : "Alice",
+  "priority" : "MEDIUM",
+  "status" : "OPEN",
+  "createdAt" : "2026-11-10T17:39:33.748282",
+  "votes" : 13,
+  "businessJustification" : "Reduces eye strain for night shift",
+  "assignee" : "Charlie",
+  "tags" : [ "ui" ],
+  "type" : "feature"
+}, {
+  "id" : 3,
+  "title" : "Database production read access",
+  "description" : "Read-only credentials for SQL troubleshooting during incident triage in production cluster",
+  "requester" : "Dave",
+  "priority" : "HIGH",
+  "status" : "OPEN",
+  "createdAt" : "2026-11-10T17:39:33.748312",
+  "systemName" : "Prod-DB",
+  "accessLevel" : "READ",
+  "escalationLevel" : 1,
+  "assignee" : null,
+  "tags" : [ "security" ],
+  "type" : "access"
+} ]
